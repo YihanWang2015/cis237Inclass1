@@ -33,6 +33,12 @@ namespace cis237Inclass1
             Console.WriteLine(this.firstName + " " +this.lastName);
         }
 
+
+        public override string ToString()
+        {
+            return this.firstName + " " + this.lastName;
+        }
+
         //first name property
         public string FirstName 
         {

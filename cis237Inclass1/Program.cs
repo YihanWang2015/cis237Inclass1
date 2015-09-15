@@ -12,12 +12,21 @@ namespace cis237Inclass1
         {
             Person person = new Person("David", "Barnes", 25);
 
+            Person person2 = new Person("Joe", "Somebody", 85);
 
             person.PrintFullName();
-            person.PrintFullName();
+            person2.PrintFullName();
             person.PrintFullName();
 
+            PersonCollection personCollection = new PersonCollection();
 
+            personCollection.addPerson(person);
+
+            personCollection.addPerson(new Person("Not", "Declared First", 34));
+
+            Console.WriteLine(personCollection.getPersonCollectionToString());
+
+        
         }
     }
 }
