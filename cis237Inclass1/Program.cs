@@ -26,6 +26,10 @@ namespace cis237Inclass1
 
             Console.WriteLine(personCollection.getPersonCollectionToString());
 
+            Console.WriteLine();
+            Console.WriteLine("Different stuff");
+            Console.WriteLine("Moar. All the different stuff");
+
         
         }
     }
